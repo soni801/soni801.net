@@ -1,0 +1,45 @@
+@font-face
+{
+    font-family: Montserrat;
+    src: url(../assets/fonts/Montserrat.ttf);
+}
+
+body
+{
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+}
+
+#navbar
+{
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#navbar a
+{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+}
+
+#navbar a:hover
+{
+    border-bottom: 3px solid #3ba3a1;
+}
+
+.sticky
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.front
+{
+    text-align: center;
+    font-size: 60px;
+}
